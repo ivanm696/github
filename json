@@ -1,0 +1,116 @@
+{
+  "locale": "mol",
+  "meta": {
+    "language_name": "Молдовеняскэ (Кириликэ)",
+    "publisher": "Лумина Стандард"
+  },
+  "months": {
+    "january": "Януарие",
+    "february": "Февруарие",
+    "march": "Мартие",
+    "april": "Априлие",
+    "may": "Май",
+    "june": "Юние",
+    "july": "Юлие",
+    "august": "Аугуст",
+    "september": "Септембрие",
+    "october": "Октомбрие",
+    "november": "Ноембрие",
+    "december": "Дечембрие"
+  },
+  "days": {
+    "monday": { "full": "Лунь", "short": "Lu" },
+    "tuesday": { "full": "Марць", "short": "Ma" },
+    "wednesday": { "full": "Миеркурь", "short": "Mi" },
+    "thursday": { "full": "Жой", "short": "Jo" },
+    "friday": { "full": "Винерь", "short": "Vi" },
+    "saturday": { "full": "Сымбэтэ", "short": "Sâ" },
+    "sunday": { "full": "Думиникэ", "short": "Du" }
+  },
+  "actions": {
+    "save": "Сальвязэ",
+    "delete": "Штерӂе",
+    "edit": "Модификэ",
+    "cancel": "Анулязэ",
+    "search": "Каутэ",
+    "send": "Тримйте",
+    "add": "Адаугэ",
+    "close": "Ынкиде",
+    "back": "Ынапой"
+  },
+  "search_and_filters": {
+    "search": "Каутэ",
+    "found": "Гэсит",
+    "filter": "Филтру",
+    "sorting": "Сортаре",
+    "placeholder": "Каутэ аич...",
+    "no_results": "Ну са гэсит",
+    "all": "Тот",
+    "clear": "Курэцэ"
+  },
+  "system_settings": {
+    "settings": "Регулэрь",
+    "adjust": "Регулязэ",
+    "home": "Акасэ",
+    "language": "Лимбэ",
+    "theme": {
+      "title": "Скрис",
+      "dark": "Тема ынтунекатэ",
+      "light": "Тема луминатэ"
+    },
+    "help": "Ажутор",
+    "about": "Деспре програмэ"
+  },
+  "auth": {
+    "login": "Аутентификаре",
+    "logout": "Ешире",
+    "register": "Инреӂистраре",
+    "username": "Нуме де утилизатор",
+    "password": "Паролэ",
+    "remember_me": "Тьне-мэ минте"
+  },
+  "status": {
+    "online": "Онлайн",
+    "offline": "Оффлайн",
+    "success": "Сукчес",
+    "error": "Ероаре",
+    "loading": "Сэ нкаркэ..."
+  },
+  "profile": {
+    "title": "Профил",
+    "first_name": "Нуме",
+    "last_name": "Пренуме",
+    "email": "Пошта електроникэ",
+    "phone": "Телефон",
+    "address": "Адресэ",
+    "gender": {
+      "label": "Ӂену",
+      "male": "Бэрбэт",
+      "female": "Фемее"
+    }
+  },
+  "notifications": {
+    "welcome": "Бине аць венит!",
+    "attention": "Атенцие!",
+    "warning": "Авертисмент",
+    "info": "Информацие",
+    "saved_successfully": "Салват ку сукчес",
+    "required_field": "Кымп облигаториу",
+    "try_again": "Ынчеркаць дин ноу"
+  },
+  "media_and_files": {
+    "download": "Дескэркаре",
+    "upload": "Ынкэркаре",
+    "record": "Ынреӂистраре",
+    "file": "Фишиер",
+    "image": "Имаӂине",
+    "size": "Дименсиуне"
+  },
+  "errors_and_network": {
+    "page_not_found": "Паӂина ну а фост гэситэ",
+    "access_denied": "Акчес интерзис",
+    "no_connection": "Нуй конектат",
+    "server_error": "Ероаре де сервер",
+    "timeout": "Тимпул а експират"
+  }
+}
