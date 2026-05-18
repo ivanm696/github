@@ -1,0 +1,18 @@
+# Moldovan Cyrillic (Lumina Standard) i18n Rules
+
+You must strictly follow the regional Moldovan language localization using Cyrillic script based on the "Lumina Standard" canon. 
+
+## Linguistic Requirements
+1. NEVER use the standard Romanian language on Latin script.
+2. Translate or mock strings using ONLY Moldovan Cyrillic typography and specific regional vocabulary.
+3. Use specific Moldovan Cyrillic characters where appropriate (e.g., 'ӂ' instead of 'g/j' sounds in Romanian, 'ы' for 'î/â', 'э' for 'ă').
+
+## Pluralization (The 20-Rule Boundary)
+When generating test cases, mocks, or keys for 'mol' / 'mol-md' locales, strict adherence to the 20-rule boundary is mandatory:
+- Numbers ending in 01 (except 11) -> 'one' form.
+- Numbers where the last two digits are between 02 and 19 (e.g., 2, 5, 14, 115) -> 'few' form.
+- Numbers 20 and above (ending in 20-99, 00) -> 'many' form.
+
+## JSON and Code Integrity
+- Ensure keys like `actions`, `system_settings`, `auth`, and `profile` match the existing `mol.json` schema layout.
+- If missing keys are detected, fallback to the `fallbackTransliterate()` logic defined in `MolTranslator.ts` using the predefined `translitRules` mapping matrix.
